@@ -1,7 +1,7 @@
 function MainContent() {
     return (
         <>
-        <img className="headshot" src='/Seans Headshot.JPG' alt="" />
+        <img className="headshot" src='./Seans Headshot.JPG' alt="" />
         <main>
         
           <div className="name-title">
@@ -11,8 +11,8 @@ function MainContent() {
           </div>
   
           <div className="contact-btns">
-            <a href="mailto:scoleman2296@gmail.com" className="email-btn"><img src='/Mail.png' alt="Mail icon" /><span>Email</span></a>
-            <a href="https://www.linkedin.com/in/seantcoleman/" className="linkedin-btn"><img src='/linkedin.png' alt="" />LinkedIn</a>
+            <a href="mailto:scoleman2296@gmail.com" target="_blank" className="email-btn"><img src='./Mail.png' alt="Mail icon" /><span>Email</span></a>
+            <a href="https://www.linkedin.com/in/seantcoleman/" target="_blank" className="linkedin-btn"><img src='./linkedin.png' alt="" />LinkedIn</a>
           </div>
           
           <div className="about-interests">
